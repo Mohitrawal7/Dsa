@@ -21,7 +21,7 @@ p=i+2;
 }
 }
 no[p-1]=p;
-printf("%d\n",no[p]);
+printf("%d is missing \n",no[p-1]);
 for (i=0;i<10;i++){
         printf("%d\t",no[i]);
 }
