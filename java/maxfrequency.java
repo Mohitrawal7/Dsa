@@ -14,8 +14,8 @@ Find the maximum frequency of the value k after the operation.
 */
 
 
-class Solution {
-    public int maxFrequency(int[] nums, int k) {
+public class maxfrequency {
+    public static int maxFrequency(int[] nums, int k) {
         int maxFrequency = 0;
         int n=nums.length;
 
@@ -32,5 +32,11 @@ class Solution {
             }
         }
         return maxFrequency;
+    }
+    public static void main(String[] args){
+        int[] nums = {3,3,3,3,6};
+//        int[] nums = {10,4,4,4,4,4,5,3};
+        int k=10;
+        System.out.println(maxFrequency(nums,k));
     }
 }
