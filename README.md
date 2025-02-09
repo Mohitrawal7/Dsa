@@ -1,4 +1,4 @@
-Practice of dsa on Java & C
+Practice of dsa on C
 
 
 # I like to practice dsa on every problem
